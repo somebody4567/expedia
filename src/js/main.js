@@ -1,14 +1,11 @@
 import HeaderAnimations from './headerAnimations';
 import Tabs from './tabs';
 import BeforeLoad from './beforeLoad';
-import LoadContent from './loadContent';
 import LoadContentAndYTAPI from './loadContentAndYTAPI';
 import Swiper from "swiper/bundle";
-import setObserver from './observer';
 
 
 window.addEventListener('DOMContentLoaded', () => {
-    // setObserver();
     
     new Swiper('.fit__slider', {
         slidesPerView: 'auto',
