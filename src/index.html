@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expedia</title>
+    <link rel="icon" href="assets/icons/expedia-fav-icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/icons/expedia-fav-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconsFont.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <main class="main-content">
+        <header class="header">
+            <div class="container header__container">
+                <nav class="header__nav">
+                    <div class="header__nav-block">
+                        <a class="header__nav-logo" href="#" >
+                            <img src="assets/icons/logo.svg" alt="logo">
+                        </a>
+                        <div data-dropdown class="header__nav-travel show-dropdown header__nav-option-md3-hidden">More travel 
+                            <div class="header__nav-option__arrow header__nav-option__offset-left">
+                                <span class="icon-arrow-down"></span>
+                            </div>
+                            <div class="header__dropdown">
+                                <a class="header__dropdown-item" href="#">
+                                    Link 1
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Link 2
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Link 3
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Link 4
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__nav-options">
+                        <div data-language class="header__nav-option header__nav-language">
+                            <div class="header__nav-option__img">
+                                <span class="icon-globe"></span>
+                            </div>
+                            <div class="header__nav-option__text">English</div>  
+                            <div class="header__dropdown">
+                                <a class="header__dropdown-item" href="#">
+                                    Русский
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    German 
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Danish
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    French
+                                </a>
+                            </div>
+                        </div>
+                        <div data-dropdown class="header__nav-option show-dropdown header__nav-option-md3-hidden">
+                            <div class="header__nav-option__img">
+                                <span class="icon-dollar-sign"></span>
+                            </div>
+                            <div class="header__nav-option__text header__nav-option__offset">USD</div>   
+                            <div class="header__nav-option__arrow">
+                                <span class="icon-arrow-down"></span>
+                            </div>
+                            <div class="header__dropdown">
+                                <a class="header__dropdown-item" href="#">
+                                    Link 1
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Link 2
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Link 3
+                                </a>
+                                <a class="header__dropdown-item" href="#">
+                                    Link 4
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__nav-option header__nav-option-md2-hidden">
+                            <a href="#" class="header__nav-option__text">Support</a> 
+                        </div>
+                        <div class="header__nav-option header__nav-option-md3-hidden">
+                            <a href="#" class="header__nav-option__text">Trial</a> 
+                        </div>
+                        <button class="header__nav-enter header__nav-option-md3-hidden">Sign in</button>
+                        <div class="header__hamburger">
+                            <div class="header__hamburger-elem"></div>
+                            <div class="header__hamburger-elem"></div>
+                            <div class="header__hamburger-elem"></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- <div class="main-content__wrapper"></div> -->
+        <section class="way">
+            <div class="container">
+                <h1 class="way__title">
+                    The Greatest <br> Way to The Beach
+                </h1>
+                <h2 class="way__subtitle">
+                    Bring daydreams of sun-kissed skin and salty hair to reality
+                </h2>
+                <button class="way__button">Book now</button>
+                <div class="way__wrapper">
+                    <nav class="way__wrapper-nav">
+                        <div class="way__wrapper-block">
+                            <div class="way__wrapper-item"><span class="icon-stays"></span>Stays</div>
+                            <div class="way__wrapper-item"><span class="icon-flight"></span>Flights</div>
+                            <div class="way__wrapper-item"><span class="icon-car"></span>Cars</div>
+                            <div class="way__wrapper-item"><span class="icon-deals"></span>Package Deals</div>
+                            <div class="way__wrapper-item"><span class="icon-ticket"></span>Experiences Ticket</div>
+                            <div class="way__wrapper-item"><span class="icon-cruises"></span>Cruises</div>
+                        </div>
+                        <div class="way__wrapper-recent">Recent Search</div>
+                    </nav>
+                    <div class="way__wrapper-options">
+                        <div class="way__wrapper-tab">
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Stays</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/map-pin.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Where are you going?</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Check in</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Add dates</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Check out</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Add dates</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Guests & Rooms</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/user.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">How many guests and rooms?</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="way__wrapper-tab">
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Flights</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/map-pin.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Where are you going?</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Check in</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Add dates</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Check out</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Add dates</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Guests & Rooms</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/user.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">How many guests and rooms?</div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="way__wrapper-tab">
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Cars</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/map-pin.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Where are you going?</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Check in</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Add dates</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Check out</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">Add dates</div>
+                                </div>
+                            </a>
+                            <a href='#' class="way__wrapper-option">
+                                <div class="way__wrapper-title">Guests & Rooms</div>
+                                <div class="way__wrapper-info">
+                                    <img src="assets/icons/user.svg" alt="pin" class="way__wrapper-pic">
+                                    <div class="way__wrapper-text">How many guests and rooms?</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="way__wrapper-tab">
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Package Deals</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/map-pin.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Where are you going?</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Check in</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Add dates</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Check out</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Add dates</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Guests & Rooms</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/user.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">How many guests and rooms?</div>
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="way__wrapper-tab">
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Ticket</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/map-pin.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Where are you going?</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Check in</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Add dates</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Check out</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Add dates</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Guests & Rooms</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/user.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">How many guests and rooms?</div>
+                            </div>
+                        </a>
+                    </div>   
+                    <div class="way__wrapper-tab">
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Cruises</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/map-pin.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Where are you going?</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Check in</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Add dates</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Check out</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/calendar.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">Add dates</div>
+                            </div>
+                        </a>
+                        <a href='#' class="way__wrapper-option">
+                            <div class="way__wrapper-title">Guests & Rooms</div>
+                            <div class="way__wrapper-info">
+                                <img src="assets/icons/user.svg" alt="pin" class="way__wrapper-pic">
+                                <div class="way__wrapper-text">How many guests and rooms?</div>
+                            </div>
+                        </a>
+                    </div>  
+                    </div>
+                       
+                    <div class="way__wrapper-bottom">
+                        <div class="way__wrapper-warning">
+                            Check the updates about travel health policy during the pandemic COVID-19 in <span>Traveling Policy Updates</span>
+                        </div>
+                        <button class="way__wrapper-button">
+                            <div class="way__wrapper-inner">
+                                Search stays
+                            </div>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="keep">
+        <div class="container">
+            <h2 class="keep__title">Here to help keep you on the move</h2>
+            <div class="keep__wrapper">
+                <div class="keep__wrapper-elem">
+                    <div class="keep__wrapper-circle keep__wrapper-circle_smoky"></div>
+                    <div class="keep__wrapper-content">
+                        <div class="keep__wrapper-headline">Change or cancel trip</div>
+                        <div class="keep__wrapper-text">
+                            Make updates to your itinerary or cancel a booking
+                        </div>
+                    </div>
+                </div>
+                <div class="keep__wrapper-elem">
+                    <div class="keep__wrapper-circle keep__wrapper-circle_green"></div>
+                    <div class="keep__wrapper-content">
+                        <div class="keep__wrapper-headline">Use a credit or coupon</div>
+                        <div class="keep__wrapper-text">
+                            Apply a coupon code or credit to a new trip
+                        </div>
+                    </div>
+                </div>
+                <div class="keep__wrapper-elem">
+                    <div class="keep__wrapper-circle keep__wrapper-circle_creamy"></div>
+                    <div class="keep__wrapper-content">
+                        <div class="keep__wrapper-headline">Track your refund</div>
+                        <div class="keep__wrapper-text">
+                            Track a status of a refund currently in progress
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fit">
+        <div class="container fit__container">
+            <div class="fit__content">
+                <h2 class="fit__title">
+                    City breaks to fit every style
+                </h2>
+                <h3 class="fit__subtitle">
+                    Find the best travelling destination that fit you a lot with all the new experiences and things you adore so much
+                </h3>
+                <button class="fit__button md2-hidden">Explore more</button>
+            </div>
+            <div class="swiper-container fit__slider">
+                <div class="swiper-wrapper fit__wrapper">
+                    <a href="#" class="swiper-slide fit__wrapper-slide">
+                        <img src="assets/img/slide1.svg" alt="slide1" class="fit__wrapper-img">
+                        <div class="fit__wrapper-text">Cities for beach lovers</div>
+                    </a>
+                    <div class="swiper-slide fit__wrapper-slide">
+                        <img src="assets/img/slide2.svg" alt="slide1" class="fit__wrapper-img">
+                        <div class="fit__wrapper-text">Cities for camping 
+                            activities
+                        </div>
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide">
+                        <img src="assets/img/slide3.svg" alt="slide1" class="fit__wrapper-img">
+                        <div class="fit__wrapper-text">Cities for foodies
+                        </div>
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide">
+                        <img src="assets/img/slide1.svg" alt="slide1" class="fit__wrapper-img">
+                        <div class="fit__wrapper-text">Cities for foodies
+                        </div>
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide">
+                        <img src="assets/img/slide3.svg" alt="slide1" class="fit__wrapper-img">
+                        <div class="fit__wrapper-text">Cities for foodies
+                        </div>
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide">
+                        <img src="assets/img/slide2.svg" alt="slide1" class="fit__wrapper-img">
+                        <div class="fit__wrapper-text">Cities for foodies
+                        </div>
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide fit__wrapper-slide_hidden md2-hidden">
+                        
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide fit__wrapper-slide_hidden md2-hidden">
+                        
+                    </div>
+                    <div class="swiper-slide fit__wrapper-slide fit__wrapper-slide_hidden md1-hidden md2-hidden">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="fit__button fit__button_desk-hidden">Explore more</button>
+        </div>
+    </section>
+
+    <section class="trip">
+        <div class="container">
+            <h2 class="trip__h2">Trips made easier for everyone, everywhere</h2>
+            <div class="trip__wrapper">
+                <div class="trip__wrapper-item">
+                    <div class="trip__wrapper-img">
+                        <img src="assets/img/card1.jpg" alt="first-card-img">
+                    </div>
+                    <div class="trip__wrapper-content">
+                        <div class="trip__wrapper-title">Book and relax</div>
+                        <div class="trip__wrapper-text">Flexible options let you spend more time 
+                            making plans and less time worrying when 
+                            things change.
+                        </div>
+                    </div>
+                </div>
+                <div class="trip__wrapper-item trip__wrapper-item_top-offset">
+                    <div class="trip__wrapper-img">
+                        <img src="assets/img/card2.jpg" alt="second-card-img">
+                    </div>
+                    <div class="trip__wrapper-content">
+                        <div class="trip__wrapper-title">Travel smart checklist</div>
+                        <div class="trip__wrapper-text">Ready for your next great vacation? use this 
+                            cheatsheet to ensure you’ve covered the 
+                            esentials.
+                        </div>
+                    </div>
+                </div>
+                <div class="trip__wrapper-item">
+                    <div class="trip__wrapper-img">
+                        <img src="assets/img/card3.jpg" alt="third-card-img">
+                    </div>
+                    <div class="trip__wrapper-content">
+                        <div class="trip__wrapper-title">Point hack your trip</div>
+                        <div class="trip__wrapper-text">Earn Expedia Rewards points on top of any 
+                            credit card or airline program points when 
+                            you book.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="ideas">
+        <div class="container ideas__container">
+            <h2 class="ideas__h2">Ideas for your future trips</h2>
+            <div class="ideas__wrapper">
+                <div class="ideas__wrapper-item ideas__wrapper-item_first">
+                    <div class="ideas__wrapper-content">
+                        <div class="ideas__wrapper-title">
+                            Short Runaway
+                        </div>
+                        <div class="ideas__wrapper-text">
+                            Explore the great private resort for
+                            your refreshing need
+                        </div>
+                    </div>
+                    <div data-video="BAahBqreWZw" data-play class="ideas__wrapper-play ideas__wrapper-play_mt29">
+                        <img src="assets/icons/play-button.png" alt="play" class="ideas__wrapper-play_playing">
+                        <!-- <img src="assets/icons/stop-button.jpg" alt="play" class="ideas__wrapper-play_stop"> -->
+                    </div>
+                </div>    
+                <div class="ideas__wrapper-item ideas__wrapper-item_second">
+                    <div class="ideas__wrapper-content  ideas__wrapper-content_pos">
+                        <div class="ideas__wrapper-title">
+                            Great Camping
+                        </div>
+                        <div class="ideas__wrapper-text">
+                            Explore the great private resort for
+                            your refreshing need
+                        </div>
+                    </div>
+                </div>    
+                <div class="ideas__wrapper-item ideas__wrapper-item_third">
+                    <div class="ideas__wrapper-title">
+                        Family Trips
+                    </div>
+                    <div data-video="suuRhhE2mEU" data-play class="ideas__wrapper-play ideas__wrapper-play_mt16">
+                        <img src="assets/icons/play-button.png" alt="play" class="ideas__wrapper-play_playing">
+                    </div>
+                </div> 
+                <div class="ideas__wrapper-item ideas__wrapper-item_fifth">
+                    <div class="ideas__wrapper-title">
+                        Winter Vacation
+                    </div>
+                    <div data-video="P4bKZT_Eg4A" data-play class="ideas__wrapper-play ideas__wrapper-play_mt16">
+                        <img src="assets/icons/play-button.png" alt="play" class="ideas__wrapper-play_playing">
+                    </div>
+                </div> 
+                <div class="ideas__wrapper-item ideas__wrapper-item_fourth">
+                    <div class="ideas__wrapper-title">
+                        Fun Cruising
+                    </div>
+                </div>    
+                <div class="ideas__wrapper-item ideas__wrapper-item_sixth">
+                    <div class="ideas__wrapper-title">
+                        Exciting Theme Park
+                    </div>
+                </div>    
+            </div>
+            <img src="assets/icons/dots.svg" class="ideas__dots"></img>
+            <button class="ideas__button">Explore more ideas</button>
+        </div>
+    </section>
+
+    
+
+    <section class="flight">
+        <div class="container">
+            <h3 class="flight__title">Flight deals on Expedia</h3>
+            <h4 class="flight__subtitle">Get to where you’re going for less with these great fare</h4>
+            <button class="flight__button">Explore now</button>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper-media">
+                    <a href="#" class="footer__wrapper-group">
+                        <img src="assets/icons/expedia-group.svg" alt="expedia-group-logo">
+                    </a>
+                    <div class="footer__wrapper-social">
+                        <a class="footer__wrapper-item" href="#">
+                            <img src="assets/icons/facebook.svg" alt="facebook" class="footer__wrapper-img">
+                            <div class="footer__wrapper-text">
+                                Facebook
+                            </div>
+                        </a>
+                        <a class="footer__wrapper-item" href="#">
+                            <img src="assets/icons/instagram.svg" alt="facebook" class="footer__wrapper-img">
+                            <div class="footer__wrapper-text">
+                                Instagram
+                            </div>
+                        </a>
+                        <a class="footer__wrapper-item" href="#">
+                            <img src="assets/icons/twitter.svg" alt="facebook" class="footer__wrapper-img">
+                            <div class="footer__wrapper-text">
+                                Twitter
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__wrapper-more">
+                    <div class="footer__wrapper-column">
+                        <div class="footer__wrapper-title">Company</div>
+                        <div class="footer__wrapper-list">
+                            <a href="#" class="footer__wrapper-li">About</a>
+                            <a href="#" class="footer__wrapper-li">Jobs</a>
+                            <a href="#" class="footer__wrapper-li">List your property</a>
+                            <a href="#" class="footer__wrapper-li">Partnership</a>
+                            <a href="#" class="footer__wrapper-li">Newsroom</a>
+                            <a href="#" class="footer__wrapper-li">Investor Relations</a>
+                            <a href="#" class="footer__wrapper-li">Advertising</a>
+                        </div>
+                    </div>
+                    <div class="footer__wrapper-column">
+                        <div class="footer__wrapper-title">Explore</div>
+                        <div class="footer__wrapper-list">
+                            <a href="#" class="footer__wrapper-li">United States of America travel guide</a>
+                            <a href="#" class="footer__wrapper-li">Hotels in United States of America</a>
+                            <a href="#" class="footer__wrapper-li">Vacation rentals in United States of <br> America</a>
+                            <a href="#" class="footer__wrapper-li">Vacation packages in United States of <br> America</a>
+                            <a href="#" class="footer__wrapper-li">Domestic Flights</a>
+                            <a href="#" class="footer__wrapper-li">Car renta;s in United States of America</a>
+                            <a href="#" class="footer__wrapper-li">All accommodation types</a>
+                        </div>
+                    </div>
+                    <div class="footer__wrapper-column">
+                        <div class="footer__wrapper-title">Terms & Policies</div>
+                        <div class="footer__wrapper-list">
+                            <a href="#" class="footer__wrapper-li">Privacy policy</a>
+                            <a href="#" class="footer__wrapper-li">Terms of use</a>
+                            <a href="#" class="footer__wrapper-li">Expedia Rewards Terms</a>
+                            <a href="#" class="footer__wrapper-li">Accessibility</a>
+                            <a href="#" class="footer__wrapper-li">Do not sell my personal information</a>
+                        </div>
+                    </div>
+                    <div class="footer__wrapper-column">
+                        <div class="footer__wrapper-title">Help</div>
+                        <div class="footer__wrapper-list">
+                            <a href="#" class="footer__wrapper-li">Support</a>
+                            <a href="#" class="footer__wrapper-li">Cancel your hotel or vacational rental <br> booking</a>
+                            <a href="#" class="footer__wrapper-li">Cancel your flight</a>
+                            <a href="#" class="footer__wrapper-li">Refund timelines, politics & processes</a>
+                            <a href="#" class="footer__wrapper-li">Use an expedia coupon</a>
+                            <a href="#" class="footer__wrapper-li">Coronavirus Disease (COVID-19)</a>
+                            <a href="#" class="footer__wrapper-li">International travel documents</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="final">
+        <div class="container">
+            <div class="final__title">
+                Expedia, Inc. is not responsible for content on external Web sites.
+            </div>
+            <div class="final__subtitle">
+                © 2021 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc. CST# 2029030-50
+            </div>
+        </div>
+    </section>
+ 
+
+    <div class="modal-hamburger">
+        <div class="modal-hamburger__menu">
+            <div class="modal-hamburger__dropdowns modal-hamburger__li-desktop-hidden">
+                <div data-dropdown class="header__nav-travel show-dropdown">More travel 
+                    <div class="header__nav-option__arrow header__nav-option__offset-left">
+                        <span class="icon-arrow-down"></span>
+                    </div>
+                    <div class="header__dropdown">
+                        <a class="header__dropdown-item" href="#">
+                            Link 1
+                        </a>
+                        <a class="header__dropdown-item" href="#">
+                            Link 2
+                        </a>
+                        <a class="header__dropdown-item" href="#">
+                            Link 3
+                        </a>
+                        <a class="header__dropdown-item" href="#">
+                            Link 4
+                        </a>
+                    </div>
+                </div>
+                <div data-dropdown class="header__nav-option show-dropdown">
+                    <div class="header__nav-option__img">
+                        <span class="icon-dollar-sign"></span>
+                    </div>
+                    <div class="header__nav-option__text header__nav-option__offset">USD</div>   
+                    <div class="header__nav-option__arrow">
+                        <span class="icon-arrow-down"></span>
+                    </div>
+                    <div class="header__dropdown">
+                        <a class="header__dropdown-item" href="#">
+                            Link 1
+                        </a>
+                        <a class="header__dropdown-item" href="#">
+                            Link 2
+                        </a>
+                        <a class="header__dropdown-item" href="#">
+                            Link 3
+                        </a>
+                        <a class="header__dropdown-item" href="#">
+                            Link 4
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="modal-hamburger__li modal-hamburger__li-desktop-hidden">Sign In</a>
+            <a href="#" class="modal-hamburger__li modal-hamburger__li-desktop-hidden">Trial</a>
+            <a class="modal-hamburger__li" href="#">Item1</a>
+            <a class="modal-hamburger__li" href="#">Item2</a>
+            <a class="modal-hamburger__li" href="#">Item3</a>
+            <a class="modal-hamburger__li" href="#">Item4</a>
+            <a class="modal-hamburger__li" href="#">Item5</a>
+            <a class="modal-hamburger__li modal-hamburger__li-desktop-hidden" href="#">Support</a>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div class="modal__content">
+            <div class="modal__close">&#10006;</div>
+            <div id="player"></div>
+        </div>
+    </div>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>

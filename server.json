@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "cards": [
+    {
+      "background": "assets/img/idea3.jpg",
+      "title": "Lorem ipsum title1",
+      "playBtn": true,
+      "dataVideo": "6a8f1TbYb2w"
+    },
+    {
+      "background": "assets/img/idea4.jpg",
+      "title": "Lorem ipsum title2",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.2.",
+      "playBtn": false
+    },
+    {
+      "background": "assets/img/idea1.jpg",
+      "title": "Lorem ipsum title3",
+      "playBtn": true,
+      "dataVideo": "LembwKDo1Dk"
+    },
+    {
+      "background": "assets/img/idea2.jpg",
+      "title": "Lorem ipsum title4",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.4.",
+      "playBtn": false
+    },
+    {
+      "background": "assets/img/idea6.jpg",
+      "title": "Lorem ipsum title5",
+      "playBtn": false
+    },
+    {
+      "background": "assets/img/idea6.jpg",
+      "title": "Lorem ipsum title6",
+      "playBtn": true,
+      "dataVideo": "iNIHfaGRv3s"
+    }
+  ]
+}

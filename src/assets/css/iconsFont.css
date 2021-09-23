@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?p59ded');
+  src:  url('../fonts/icomoon.eot?p59ded#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?p59ded') format('truetype'),
+    url('../fonts/icomoon.woff?p59ded') format('woff'),
+    url('../fonts/icomoon.svg?p59ded#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flight:before {
+  content: "\e901";
+  color: #989898;
+  transition: all 0.2s;
+}
+.icon-arrow-down:before {
+  content: "\e902";
+  color: #FFF;
+  font-size: 8px;
+  transition: all 0.2s;
+}
+.icon-stays:before {
+  content: "\e903";
+  color: #989898;
+  transition: all 0.2s;
+}
+.icon-car:before {
+  content: "\e904";
+  color: #989898;
+  transition: all 0.2s;
+}
+.icon-deals:before {
+  content: "\e905";
+  color: #989898;
+  transition: all 0.2s;
+}
+.icon-ticket:before {
+  content: "\e906";
+  color: #989898;
+  transition: all 0.2s;
+}
+.icon-cruises:before {
+  content: "\e907";
+  color: #989898;
+  transition: all 0.2s;
+}
+.icon-dollar-sign:before {
+  content: "\e900";
+  color: #FFF;
+  font-size: 24px;
+  transition: all 0.2s;
+}
+.icon-globe:before {
+  content: "\e9c9";
+  color: #FFF;
+  font-size: 24px;
+  transition: all 0.2s;
+}
