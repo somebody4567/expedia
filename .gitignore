@@ -4,3 +4,8 @@ package-lock.json
 прочитать.txt
 node_modules
 .gitignore
+src
+gulpfile.js
+package.json
+server.json
+dist
