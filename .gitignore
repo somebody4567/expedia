@@ -1,9 +1,6 @@
 .jshintrc
 desktop.ini
-gulpfile.js
 package-lock.json
-package.json
 прочитать.txt
 node_modules
-dist
 .gitignore

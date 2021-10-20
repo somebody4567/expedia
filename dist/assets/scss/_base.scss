@@ -1,0 +1,140 @@
+// подключение шрифтов
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@600&display=swap');
+
+
+
+
+// код для скролла
+
+/* ::-webkit-scrollbar { width: 10px; height: 3px; }
+::-webkit-scrollbar-button { background-color: #fff; display: none; }
+::-webkit-scrollbar-track { background-color: #fff; }
+::-webkit-scrollbar-track-piece { background-color: #fff; }
+::-webkit-scrollbar-thumb { height: 50px; background-color: #9F06FF; border-radius: 3px; }
+::-webkit-scrollbar-corner { background-color: #999; }
+::-webkit-resizer { background-color: #999; } */
+
+//ПЕРЕМЕННЫЕ ===========================
+
+// ШРИФТ ПО УМОЛЧАНИЮ ==================
+
+$fontFamily: 'Lato', sans-serif;
+/* font-family: 'Lato', sans-serif;
+font-family: 'Mulish', sans-serif; */
+$fontSize: 18px;
+
+// НАСТРОЙКИ КОНТЕЙНЕРА И АДАПТИВ ======
+
+$minWidth: 320px;
+$maxWidth: 1600px; // - ширина всего полотна
+$maxWidthContainer: 1500;
+$md1: 1512;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;   
+
+// ЦВЕТА ===============================
+
+$mainColor: #072F54;
+$lightBlue: #407BFF;
+$whiteColor: #FFF;
+$blackColor: #000;
+$greyColor: #989898;
+$lightGreen: #DFFBD2;
+$smokyWhite: #ECF2FF;
+$creamyColor: #FBE6D2;
+$yellowColor: #FBC108;
+
+//
+
+// На body
+
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    transition: background-color 1s;
+    z-index: 1000;
+    background: $mainColor url(../img/loading.gif) no-repeat 50% 50%;
+    overflow: hidden;
+    .main-content {
+        visibility: hidden;
+        opacity: 0;
+    }
+    @media (max-width: $md2+px) {
+        background-size: 50%;
+    }
+}
+.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: $maxWidthContainer+px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-content {
+    position: relative;
+    min-height: 901px;
+    padding-bottom: 108px;
+    background: url(../img/main-bg.jpg) center (center / cover) no-repeat;
+    &__wrapper {
+        height: 110px;
+        width: 100%;
+    }
+    @media (max-width: $md2+px) {
+        padding-bottom: 94px;
+    }
+    @media (max-width: $md3+px) {
+        padding-bottom: 84px;
+    }
+    @media (max-width: $md4+px) {
+        padding-bottom: 74px;
+    }
+}
+
+.bg-dark {
+    width: 100%;
+    height: 110px;
+    background-color: rgba(#407BFF, 0.6);
+    
+}
+
+
+
+
