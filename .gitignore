@@ -1,9 +1,0 @@
-.jshintrc
-desktop.ini
-package-lock.json
-прочитать.txt
-node_modules
-.gitignore
-
-dist 
-src
