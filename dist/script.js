@@ -12521,7 +12521,7 @@ class LoadContentAndYTAPI {
 
   async bindEventToButton() {
     this.btn.addEventListener('click', () => {
-      this.createContent('https://raw.githubusercontent.com/somebody4567/expedia/master/server.json');
+      this.createContent('https://raw.githubusercontent.com/somebody4567/expedia/development/server.json');
       this.btn.remove();
     });
   }
