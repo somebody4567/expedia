@@ -70,7 +70,7 @@ export default class LoadContentAndYTAPI {
             return data.json();
         })
         .then((array => {
-            array.forEach(({background, title, text, playBtn, dataVideo} = {}) => {
+            array.cards.forEach(({background, title, text, playBtn, dataVideo} = {}) => {
                 const card = document.createElement('div');
                 card.innerHTML = ``;
                 card.classList.add('ideas__wrapper-item');
@@ -111,7 +111,7 @@ export default class LoadContentAndYTAPI {
 
     async bindEventToButton() {
         this.btn.addEventListener('click', () => {
-            this.createContent('http://localhost:3000/cards');
+            this.createContent('https://raw.githubusercontent.com/somebody4567/expedia/master/server.json');
             this.btn.remove();
         });
     }
